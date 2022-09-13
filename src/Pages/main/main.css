@@ -1,0 +1,39 @@
+.textMain {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.placesMain {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.listMain {
+  display: flex;
+  justify-content: center;
+}
+
+.itensMain {
+  margin: 30px;
+}
+
+.buttonPosition {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 20px;
+}
+
+.Dropdown-control {
+  border: 3px solid #4c9f38 !important;
+  border-radius: 5px !important;
+  font-weight: bold !important;
+}
