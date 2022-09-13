@@ -10,6 +10,7 @@ code {
 
 .titleText {
   font-size: 40px;
+  margin-top: 60px;
 }
 
 .title {
@@ -20,4 +21,5 @@ code {
 
 .titleImg {
   margin-left: 10px;
+  margin-top: 60px;
 }

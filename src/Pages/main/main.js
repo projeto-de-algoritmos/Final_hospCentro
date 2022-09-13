@@ -55,13 +55,13 @@ const Main = () => {
         Essas são as listas de hospitais em todo o Brasil
       </div>
       <div className="listMain">{infoHosp}</div>
-      <div className="textMain">
+      <div className="textMainCenter">
         Selecione a capital da qual você deseja partir, e assim, encontrar o
         hospital mais próximo de onde você mora.
       </div>
       <div className="buttonPosition">
         <Button
-          text="Pesquisar"
+          text="Consultar"
           onClick={() => handleHospMaisProximo(options)}
         />
       </div>

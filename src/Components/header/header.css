@@ -2,4 +2,9 @@
   background-color: #4c9f38;
   height: 40px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
 }

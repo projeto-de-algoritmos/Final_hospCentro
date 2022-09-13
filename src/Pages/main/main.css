@@ -7,6 +7,16 @@
   margin-bottom: 20px;
 }
 
+.textMainCenter {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  padding: 20px;
+}
+
 .placesMain {
   display: flex;
   justify-content: center;
