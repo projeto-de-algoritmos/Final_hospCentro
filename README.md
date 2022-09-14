@@ -1,41 +1,35 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Final_HospCentro
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Conteúdo da Disciplina**: Final<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 18/0015966  |  Emily Dias Sousa |
+| 18/0052616  |  Estevão de Jesus Reis|
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Nosso projeto, trata-se de uma aplicação web que, a partir de um estado do Brasil, mostra a distância do hospital mais próximo. no Início da página é mostrado a lista de hospitais disponíveis em ordem alfabética e o usuário pode selecionar seu ponto de partida. 
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Javascript<br>
+**Framework**: (ReactJs)<br>
+Para rodar a aplicação é necessário ter o `npm`  ou o `yarn` instalado na máquina, além do próprio NodeJs. Execute o seguinte comando para a instalação das dependências e execução da aplicação respectivamente:
+
+      $ npm i
+      $ npm start
+
+ou
+
+      $ yarn
+      $ yarn start
+
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Logo após usar o comando de rodar o projeto, o projeto estará rodando na porta: http://localhost:3000.
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
