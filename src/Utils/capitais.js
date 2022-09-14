@@ -28,11 +28,11 @@ export const capitais = [
 ];
 
 export const hospitais = [
-  { id: 0, nome: "Hospital Oswaldo Cruz", capital: "São Paulo" },
-  { id: 1, nome: "Hospital São Lucas", capital: "Curitiba" },
-  { id: 2, nome: "Hospital Ana Nery", capital: "Salvador" },
-  { id: 3, nome: "Hospital Santa Júlia", capital: "Manaus" },
-  { id: 4, nome: "Hospital Cristo Redentor", capital: "Porto Alegre" },
+  { id: 0, nome: "Oswaldo Cruz", capital: "São Paulo" },
+  { id: 1, nome: "São Lucas", capital: "Curitiba" },
+  { id: 2, nome: "Ana Nery", capital: "Salvador" },
+  { id: 3, nome: "Santa Júlia", capital: "Manaus" },
+  { id: 4, nome: "Cristo Redentor", capital: "Porto Alegre" },
 ];
 
 export const weights = {

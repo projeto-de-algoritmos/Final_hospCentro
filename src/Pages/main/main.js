@@ -7,17 +7,20 @@ import Solution from "../../Utils/dijkstra";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import image from "../../Assets/coracao.png";
+import mergeSort from "../../Utils/mergeSort";
 
 const Main = () => {
   const options = [];
   const navigate = useNavigate();
   const [inicio, setInicio] = useState("");
+  const orderedHospital = mergeSort(hospitais);
 
   capitais.map((item) => {
     return options.push(item);
   });
 
-  const infoHosp = hospitais.map((item, index) => {
+
+  const infoHosp = orderedHospital.map((item, index) => {
     return (
       <div key={index} className="itensMain">
         <b>Hospital:</b> {item.nome}
