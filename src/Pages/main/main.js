@@ -5,7 +5,7 @@ import "react-dropdown/style.css";
 import { capitais, hospitais } from "../../Utils/capitais";
 import Solution from "../../Utils/dijkstra";
 import { useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import image from "../../Assets/coracao.png";
 import mergeSort from "../../Utils/mergeSort";
 
@@ -13,14 +13,20 @@ const Main = () => {
   const options = [];
   const navigate = useNavigate();
   const [inicio, setInicio] = useState("");
-  const orderedHospital = mergeSort(hospitais);
+  const [listaHospitais, setListaHospitais] = useState([]);
+
+  useEffect(() => {
+    const lista = JSON.parse(JSON.stringify(hospitais));
+    setListaHospitais(mergeSort(lista))
+  }, [])
+
 
   capitais.map((item) => {
     return options.push(item);
   });
 
 
-  const infoHosp = orderedHospital.map((item, index) => {
+  const infoHosp = listaHospitais.map((item, index) => {
     return (
       <div key={index} className="itensMain">
         <b>Hospital:</b> {item.nome}
